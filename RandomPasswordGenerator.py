@@ -7,6 +7,10 @@ def generartePassword(minLength, numbers = True, specialCharacters = True):
     digits = string.digits
     special = string.punctuation
 
+
+# in this user can choose if they want numbers and special characters or not 
+# This step makes sure the password includes only the types of characters the user wants
+
     character = letters
     if numbers:
         character += digits
